@@ -1,0 +1,243 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+    color: black;
+}
+
+
+.logos-a {
+    background-color: white;
+
+
+}
+
+.estilo-footer {
+
+
+    background-color: black;
+    height: 1500px;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+
+/* ---Logos Footer--- */
+
+.whatsapp {
+    height: 60px;
+    position: relative;
+    left: 245px;
+    bottom: 400px;
+}
+
+.instagram {
+    height: 60px;
+    position: relative;
+    left: 176px;
+    bottom: 299px;
+}
+
+.facebook {
+    height: 60px;
+    position: relative;
+    left: 108px;
+    bottom: 200px;
+}
+
+.twitter {
+
+    height: 60px;
+    position: relative;
+    left: 40px;
+    bottom: 100px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---HEADER--- */
+header {
+    background-color: rgb(231, 209, 11);
+    height: 130px;
+    padding: 20px;
+}
+
+h1{
+    padding: 20px;
+    background-color: rgb(231, 209, 11);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+/* ---Navegador--- */
+.estilo-lista-lugares {
+    font-size: 27px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+
+.estilo-lista {
+    font-size: 27px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+
+
+}
+/* ---Main--- */
+
+.h2-informacion {
+    background-color:rgb(231, 209, 11) ;
+    font-size: 3vb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-informacion {
+    font-size: 2rem;
+}
+
+
+
+.section-contacto {
+    color: white;
+}
+
+.main-contacto {
+    background-color: black;
+    height: 100vb;
+    color: white;
+}
+
+.main {
+    background-color: crimson;
+}
+
+.estilo-presentacion-main {
+    height: 100px;
+    background-color: rgb(231, 180, 12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.generos-musicales {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-size: 26px;
+}
+
+
+
+.mapas {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ---Imagenes--- */
+.fotos-artistas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 110px;
+    margin: 40px;
+
+}
+
+/* Article  */
+.article-index {
+
+    font-size: 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h3 {
+    background-color: rgb(231, 180, 12);
+    margin: 20px;
+    width: 990px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.reproductor-youtube {
+    margin: 60px;
+    height: 500px;
+}
+
+
+
+
+
+/* ---------------CANTANTES--------------------- */
+
+/*---Article--- */
+.article-cantantes {
+    background-color: crimson;
+    font-size: 2rem;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fotos-cantantes {
+    height: 600px;
+    padding: 40px;
+}
+
+
+/* ---Formulario--- */
+.formularios {
+    padding: 20px;
+    border: solid 20px;
+    bottom: unset;
+    border-color: crimson;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.boton-borrar {
+    align-self: center;
+}
