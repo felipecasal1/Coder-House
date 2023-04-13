@@ -8,6 +8,10 @@ a {
     color: black;
 }
 
+.reporductor {
+    height: 75%;
+    width: 75%;
+}
 
 .logos-a {
     background-color: white;
@@ -15,6 +19,60 @@ a {
 
 }
 
-header{
-    background-color: red;
+body {
+    background: black;
+}
+
+/* ---Header--- */
+header {
+    background-color: rgb(115, 216, 20);
+    height: 130px;
+}
+
+h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+
+
+/* --Main--- */
+main {
+    background-color: rgb(140, 150, 148);
+
+}
+
+h2 {
+    background-color: rgb(37, 194, 97);
+}
+
+h3 {
+    background-color: rgb(37, 194, 97);
+
+}
+
+.articulo-paulolondra {
+    font-size: 30px;
+}
+
+
+/* ---Footer--- */
+footer {
+    background-color: rgb(165, 175, 164);
+}
+
+.logos-footer {
+    width: 200px;
+    height: 200px;
+}
+footer div{
+   font-size: 30px;
+}
+footer img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
