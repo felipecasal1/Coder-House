@@ -15,8 +15,6 @@ a {
 
 .logos-a {
     background-color: white;
-
-
 }
 
 body {
@@ -25,8 +23,14 @@ body {
 
 /* ---Header--- */
 header {
-    background-color: rgb(115, 216, 20);
+    background-color:  #f17144;
     height: 130px;
+}
+
+
+
+nav div {
+    background-color:  #f17144;
 }
 
 h1 {
@@ -37,36 +41,62 @@ h1 {
 
 }
 
-
-
 /* --Main--- */
 main {
-    background-color: rgb(140, 150, 148);
-
+    background-color: #ef3353
 }
 
 h2 {
-    background-color: rgb(37, 194, 97);
+    background-color: #f4b036;
 }
 
 h3 {
-    background-color: rgb(37, 194, 97);
+    background-color:#f4b036;
 
 }
+.imagenes{
+    padding: 20px;
+    margin-bottom: 30px;
+    border: solid #723e4e 20px;
+}
 
-.articulo-paulolondra {
-    font-size: 30px;
+.estilo-lista-shows{
+    gap: 30px;
+   font-size: 20px;
+}
+article p {
+    font-size:20px;
+}
+
+.mapa{
+width: 700px;
+height: 700px;
+}
+
+.formularios {
+    padding: 50px;
+    bottom: unset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 
 /* ---Footer--- */
 footer {
-    background-color: rgb(165, 175, 164);
+    background-color: black;
 }
 
 .logos-footer {
     width: 200px;
     height: 200px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 footer div{
    font-size: 30px;
@@ -75,4 +105,7 @@ footer img{
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+.redes{
+    color: white;
 }
