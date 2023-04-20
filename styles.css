@@ -23,14 +23,14 @@ body {
 
 /* ---Header--- */
 header {
-    background-color:  #f17144;
+    background-color: #f17144;
     height: 130px;
 }
 
 
 
 nav div {
-    background-color:  #f17144;
+    background-color: #f17144;
 }
 
 h1 {
@@ -51,26 +51,41 @@ h2 {
 }
 
 h3 {
-    background-color:#f4b036;
+    background-color: #f4b036;
 
 }
-.imagenes{
+
+article p {
+    font-size: 20px;
+}
+section p{
+    font-size: 2rem;
+}
+
+
+.imagenes {
     padding: 20px;
     margin-bottom: 30px;
     border: solid #723e4e 20px;
 }
 
-.estilo-lista-shows{
-    gap: 30px;
-   font-size: 20px;
-}
-article p {
-    font-size:20px;
+.lista-shows {
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
 }
 
-.mapa{
-width: 700px;
-height: 700px;
+#mapas{
+    padding: 30px;
+}
+
+
+
+
+.mapa {
+    width: 700px;
+    height: 700px;
 }
 
 .formularios {
@@ -96,16 +111,4 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-}
-footer div{
-   font-size: 30px;
-}
-footer img{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.redes{
-    color: white;
 }
