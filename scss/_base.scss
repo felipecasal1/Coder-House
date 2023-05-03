@@ -5,6 +5,11 @@
 
 }
 
+$color-principal:#ef3353; 
+$color-secundario: #f17144;
+$color-terciario: #f4b036;
+$color-footer: black;
+
 a {
     color: black;
 }
@@ -16,15 +21,15 @@ body {
 }
 
 main {
-    background-color: #ef3353
+    background-color: $color-principal
 }
 
 h2 {
-    background-color: #f4b036;
+    background-color: $color-terciario
 }
 
 h3 {
-    background-color: #f4b036;
+    background-color: $color-terciario
 
 }
 
@@ -36,5 +41,5 @@ section p{
 }
 
 footer {
-    background-color: black;
+    background-color: $color-footer;
 }
