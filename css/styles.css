@@ -34,6 +34,7 @@ section p {
 
 footer {
   background-color: black;
+  height: 300px;
 }
 
 header {
@@ -51,8 +52,23 @@ h1 {
   justify-content: center;
 }
 
-.logos {
-  width: 320px;
+.text-footer {
+  color: black;
+  padding: 20px;
+  border: solid #ef3353 10px;
+  margin: 30px;
+  background-color: #f4b036;
+  text-decoration: none;
+}
+
+.flex-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.text-footer:hover {
+  background-color: #f17144;
+  border: solid #f4b036 10px;
 }
 
 .imagenes {
@@ -61,6 +77,11 @@ h1 {
   border: solid #723e4e 20px;
 }
 
+@media (max-width: 768px) {
+  .text-cantantes {
+    font-size: 1.3rem;
+  }
+}
 .formularios {
   padding: 50px;
   bottom: unset;
@@ -76,12 +97,40 @@ h1 {
   width: 75%;
 }
 
+.text-index {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .text-index {
+    font-size: 1.4rem;
+  }
+}
+.text-informacion {
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .text-informacion {
+    font-size: 1.3rem;
+  }
+}
 .lista-shows {
   font-size: 1.6rem;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   gap: 40px;
 }
 
+@media (max-width: 768px) {
+  .mapas-shows {
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+  }
+}
 
+/*# sourceMappingURL=styles.css.map */

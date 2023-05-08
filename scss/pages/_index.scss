@@ -2,3 +2,17 @@
     height: 75%;
     width: 75%;
 }
+
+.text-index{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+
+
+@media(max-width: 768px){
+    .text-index{
+    font-size: 1.4rem;
+    }
+}

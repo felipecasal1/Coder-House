@@ -1,4 +1,17 @@
+.text-footer{
 
-.logos{
-    width: 320px;
+    color: black;
+padding: 20px;
+border: solid $color-principal 10px;
+margin: 30px;
+background-color:$color-terciario;
+text-decoration: none;
+}
+.flex-footer{
+    display: flex;
+    justify-content: center;
+}
+.text-footer:hover{
+    background-color:$color-secundario;
+    border: solid $color-terciario 10px;
 }
